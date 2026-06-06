@@ -371,10 +371,10 @@ void display() {
     drawBall(ball);
     
     // ==========================================
-    // PENGATURAN TAMPILAN INTERFACE HUD (2D MATRIX)
+    // PENGATURAN TAMPILAN INTERFACE HUD
     // ==========================================
     glDisable(GL_LIGHTING);
-    glDisable(GL_DEPTH_TEST); // MATIKAN DEPTH TEST AGAR TEKS 2D TIDAK TERTUTUP OBJEK 3D
+    glDisable(GL_DEPTH_TEST);
 
     glMatrixMode(GL_PROJECTION); 
     glPushMatrix(); 
@@ -395,7 +395,7 @@ void display() {
         glColor3f(1.0f, 1.0f, 1.0f);
         drawTextLarge(285, 300, "PRESS [S] TO START");
         
-        // Letak Options dan Quit digeser lebih ke kiri sedikit (X=520) agar aman tidak terpotong tepi layar
+        // Options dan Quit
         glColor3f(0.85f, 0.85f, 0.85f);
         drawText(520, 560, "-> Press [K] for Key Controls");
         drawText(520, 530, "-> Press [Q] to Quit Game");
@@ -406,7 +406,6 @@ void display() {
         glColor3f(0.2f, 1.0f, 1.0f); 
         drawTextLarge(295, 500, "KEY CONTROLS");
         
-        // Digeser sedikit ke kiri (X=120) untuk kejelasan
         glColor3f(1.0f, 1.0f, 1.0f);
         drawText(120, 390, "[ARROW UP / DOWN]       : Move Camera Forward / Backward");
         drawText(120, 350, "[ARROW LEFT / RIGHT]    : Rotate Camera Orientation");
@@ -451,7 +450,7 @@ void display() {
     glMatrixMode(GL_MODELVIEW); 
     glPopMatrix();
     
-    glEnable(GL_DEPTH_TEST); // NYALAKAN KEMBALI DEPTH TEST UNTUK FRAME BERIKUTNYA
+    glEnable(GL_DEPTH_TEST); 
     glutSwapBuffers();
 }
 
