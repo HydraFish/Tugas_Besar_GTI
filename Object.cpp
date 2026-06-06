@@ -1,5 +1,5 @@
 #include "Object.h"
-// 1. Dinding Pembatas - Ditambah tembok baru untuk mempersempit jalan menuju finish
+// 1. Dinding Pembatas 
 std::vector<Wall> walls = {
     {8.0f, 22.0f, 30.0f, 32.0f, 1.5f}, // Tembok Penghalang Tengah (Tinggi 1.5)
     
