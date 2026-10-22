@@ -74,7 +74,6 @@ Proyek ini dikembangkan secara kolaboratif sebagai Tugas Besar Grafika Komputer.
 
 - **Repository asli:** [franx-hlmmm/Tugas_Besar_GTI](https://github.com/franx-hlmmm/Tugas_Besar_GTI)
 - **Pemilik repository asli:** [franx-hlmmm](https://github.com/franx-hlmmm)
-- **Kontributor:** `[Nama Kamu]` — [jelaskan bagian yang kamu kerjakan]
 
 Fork ini disimpan oleh [@username-kamu](https://github.com/username-kamu) sebagai dokumentasi dan portofolio proyek kelompok. Hak dan kredit atas kontribusi masing-masing tetap dimiliki oleh pembuatnya.
 
